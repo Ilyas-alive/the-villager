@@ -84,7 +84,7 @@
     
             // Function to fetch a random joke
             function fetchJoke() {
-                fetch('modified_jokes.csv')
+                fetch('jokes.csv')
                     .then(response => {
                         if (!response.ok) {
                             throw new Error('Failed to load modified_jokes.csv');
